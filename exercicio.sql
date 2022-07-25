@@ -20,8 +20,6 @@ create table estoque (
 	foreign key (id_produto) references produto (id_produto)
 );
 
-drop table estoque;
-
 insert into estoque (id_produto, qt_produto) values
 	(1, 127),
 	(2, 2),
